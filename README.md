@@ -1,51 +1,37 @@
-# Bond — AI Workspace
+# Bond — Official Showcase & Download Portal
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Deploy with Vercel](https://vercel.com/button)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKrishna5567%2Fbond-website)
+[![Desktop App Releases](https://img.shields.io/badge/Desktop%20App-v1.0.0-00A86B?logo=windows)](https://github.com/Krishna5567/BOND/releases)
 
-Put the world's best AI agents to work. One workspace for all of them — Claude, GPT-4, Gemini, Grok, and DeepSeek, running side by side.
+The official landing page and web interface for **Bond** — the unified desktop multi-agent terminal hub.
 
-## Features
+## 🚀 Live Links
+- **Desktop Application Repository**: [Krishna5567/BOND](https://github.com/Krishna5567/BOND)
+- **Windows Installer Direct Download**: [Bond-Setup-x64.exe](https://github.com/Krishna5567/BOND/releases/download/v1.0.0/Bond-Setup-x64.exe)
+- **Website Repository**: [Krishna5567/bond-website](https://github.com/Krishna5567/bond-website)
 
-- 🤖 Multi-Agent Workspace: Run Claude, GPT-4, Gemini, Grok & DeepSeek side by side
-- 🌙 Night Mode: Sleek dark theme with emerald green accents
-- 📐 Flexible Layouts: Single, split, or quad-pane workspace
-- 🔐 Privacy First: API keys stored locally, never sent to Bond servers
-- ⚡ Fast Deploy: One-click deploy to Vercel
-- 🎨 Beautiful UI: Custom-designed with attention to detail
-
-## Quick Start
+## 🛠 Local Development
 
 ```bash
-git clone https://github.com/yourusername/bond.git
-cd bond
+git clone https://github.com/Krishna5567/bond-website.git
+cd bond-website
 npm install
 npm run dev
 ```
 
-## Deploy to Vercel
+Visit `http://localhost:3000` to view the website.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fbond)
+## 🌐 Deploy in 1-Click
 
-## API Keys
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKrishna5567%2Fbond-website)
 
-To use the agents, you'll need to provide your own API keys in the Settings menu (⚙️):
-- **OpenAI (GPT-4)**: Get your key from [OpenAI platform](https://platform.openai.com/api-keys)
-- **Anthropic (Claude)**: Get your key from [Anthropic Console](https://console.anthropic.com/settings/keys)
-- **Google (Gemini)**: Get your key from [Google AI Studio](https://aistudio.google.com/app/apikey)
-- **xAI (Grok)**: Get your key from [xAI Console](https://console.x.ai/)
-- **DeepSeek**: Get your key from [DeepSeek Platform](https://platform.deepseek.com/)
+1. Click the **Deploy with Vercel** button above.
+2. Sign in with GitHub and select your account.
+3. Click **Deploy**. Vercel builds and hosts the site globally with a free HTTPS domain!
 
-## Tech Stack
-
-- Next.js 14
-- React 18
-- TypeScript
-- Tailwind CSS
-
-## License
-
-MIT
-
-Made with ❤️ by [Your Name]
+## 📦 Tech Stack
+- Next.js 14 (App Router)
+- React 18 & TypeScript
+- Tailwind CSS (Deep Forest Green `#004D2C` & Emerald `#00A86B` Palette)
+- Lucide React Icons

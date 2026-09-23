@@ -137,7 +137,7 @@ export default function InstallBondPage() {
                   Complete setup wizard. Automatically configures Desktop shortcut, Start Menu entry, and file associations.
                 </p>
 
-                <div className="flex items-center gap-4 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B]">
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B] whitespace-nowrap">
                   <span>Size: <strong className="text-white">145.7 MB</strong></span>
                   <span>•</span>
                   <span>Ver: <strong className="text-[#10B981]">v1.0.0</strong></span>
@@ -178,7 +178,7 @@ export default function InstallBondPage() {
                   Single standalone binary. Extract and run directly from any folder, external drive, or USB without touching the Windows registry.
                 </p>
 
-                <div className="flex items-center gap-4 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B]">
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B] whitespace-nowrap">
                   <span>Size: <strong className="text-white">145.5 MB</strong></span>
                   <span>•</span>
                   <span>Ver: <strong className="text-[#10B981]">v1.0.0</strong></span>

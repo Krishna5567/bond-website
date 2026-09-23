@@ -27,10 +27,8 @@ export default function InstallBondPage() {
           
           {/* Logo & Brand */}
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#00A86B] to-[#006341] p-0.5 shadow-[0_0_15px_rgba(0,168,107,0.35)] flex items-center justify-center">
-              <div className="w-full h-full bg-[#111916] rounded-[10px] flex items-center justify-center">
-                <span className="font-mono font-black text-sm tracking-wider text-[#10B981]">B_</span>
-              </div>
+            <div className="w-10 h-10 rounded-xl bg-[#111916] border border-[#1B3B2B] p-1 flex items-center justify-center shadow-[0_0_15px_rgba(0,168,107,0.35)]">
+              <img src="./assets/bond-logo.png" alt="Bond AI Logo" className="w-full h-full object-contain filter drop-shadow" />
             </div>
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
@@ -94,6 +92,14 @@ export default function InstallBondPage() {
 
         <div className="max-w-5xl mx-auto text-center relative z-10">
           
+          {/* Official Mascot Logo Display */}
+          <div className="flex justify-center mb-6">
+            <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-3xl bg-gradient-to-b from-[#162920] to-[#111916] border-2 border-[#00A86B] p-3.5 shadow-[0_0_40px_rgba(0,168,107,0.3)] flex items-center justify-center relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-[#00A86B] to-[#10B981] rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
+              <img src="./assets/bond-logo.png" alt="Bond Mascot Logo" className="w-full h-full object-contain relative z-10 filter drop-shadow-[0_4px_10px_rgba(0,0,0,0.6)]" />
+            </div>
+          </div>
+
           {/* Eyebrow Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#111916] border border-[#1B3B2B] text-xs font-semibold text-[#10B981] mb-6 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-[#10B981] pulse-dot"></span>
@@ -137,7 +143,7 @@ export default function InstallBondPage() {
                   Complete setup wizard. Automatically configures Desktop shortcut, Start Menu entry, and file associations.
                 </p>
 
-                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B] whitespace-nowrap">
+                <div className="flex items-center gap-4 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B]">
                   <span>Size: <strong className="text-white">145.7 MB</strong></span>
                   <span>•</span>
                   <span>Ver: <strong className="text-[#10B981]">v1.0.0</strong></span>
@@ -178,7 +184,7 @@ export default function InstallBondPage() {
                   Single standalone binary. Extract and run directly from any folder, external drive, or USB without touching the Windows registry.
                 </p>
 
-                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B] whitespace-nowrap">
+                <div className="flex items-center gap-4 text-xs font-mono text-[#6B7280] mb-6 pb-4 border-b border-[#1B3B2B]">
                   <span>Size: <strong className="text-white">145.5 MB</strong></span>
                   <span>•</span>
                   <span>Ver: <strong className="text-[#10B981]">v1.0.0</strong></span>
@@ -619,6 +625,9 @@ export default function InstallBondPage() {
       {/* FINAL DOWNLOAD BANNER */}
       <section className="max-w-5xl mx-auto px-4 sm:px-8 py-12">
         <div className="bg-gradient-to-br from-[#162920] to-[#111916] border-2 border-[#00A86B] rounded-3xl p-8 sm:p-12 text-center relative overflow-hidden shadow-[0_0_40px_rgba(0,168,107,0.18)]">
+          <div className="w-16 h-16 rounded-2xl bg-[#111916] border border-[#1B3B2B] p-2 mx-auto mb-4 flex items-center justify-center shadow-[0_0_20px_rgba(0,168,107,0.3)]">
+            <img src="./assets/bond-logo.png" alt="Bond AI Logo" className="w-full h-full object-contain filter drop-shadow" />
+          </div>
           <h2 className="text-2xl sm:text-4xl font-black text-white tracking-tight mb-4">
             Ready to Accelerate Your AI Coding Workflow?
           </h2>
@@ -653,6 +662,7 @@ export default function InstallBondPage() {
       <footer className="border-t border-[#1B3B2B] bg-[#0a0f0d] py-10 px-4 sm:px-8 text-xs text-[#9CA3AF]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
+            <img src="./assets/bond-logo.png" alt="Bond AI Logo" className="w-6 h-6 object-contain" />
             <span className="font-mono font-black text-[#10B981] tracking-wider">BOND AI</span>
             <span>•</span>
             <span>Autonomous AI Command Hub</span>

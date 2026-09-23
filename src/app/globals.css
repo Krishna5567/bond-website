@@ -3,29 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --bg-canvas: #F4F7F5;
-  --bg-card: #FFFFFF;
-  --brand-forest: #004D2C;
-  --brand-forest-dark: #00381F;
-  --brand-emerald: #00A86B;
-  --brand-mint: #E8F5E9;
-  --brand-dark-pill: #141D17;
-  --text-primary: #111827;
-  --text-secondary: #4B5563;
-  --text-muted: #6B7280;
-  --border-light: #E2E8F0;
+  --bg-dark: #0a0f0d;
+  --card-dark: #111916;
+  --border-dark: #1B3B2B;
+  --hover-dark: #162920;
+  --brand-green: #006341;
+  --brand-light: #00A86B;
+  --brand-glow: #10B981;
+  --text-white: #FFFFFF;
+  --text-muted: #9CA3AF;
+  --text-dim: #6B7280;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--bg-canvas);
-  color: var(--text-primary);
+  background-color: #0a0f0d;
+  color: #FFFFFF;
 }
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background-color: var(--bg-canvas);
-  color: var(--text-primary);
+  background-color: #0a0f0d;
+  color: #FFFFFF;
+  overflow-x: hidden;
 }
 
 /* Custom Scrollbar */
@@ -34,14 +34,14 @@ body {
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #F1F5F2;
+  background: #0a0f0d;
 }
 ::-webkit-scrollbar-thumb {
-  background: #CBD5E1;
+  background: #1B3B2B;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #94A3B8;
+  background: #006341;
 }
 
 /* Pulse animation for green status dots */
@@ -51,11 +51,19 @@ body {
     opacity: 1;
   }
   50% {
-    transform: scale(1.25);
+    transform: scale(1.2);
     opacity: 0.7;
   }
 }
 
 .pulse-dot {
   animation: statusPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.glow-card {
+  box-shadow: 0 0 25px rgba(0, 168, 107, 0.12);
+}
+
+.glow-card-lg {
+  box-shadow: 0 0 45px rgba(16, 185, 129, 0.18);
 }

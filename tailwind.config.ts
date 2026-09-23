@@ -10,34 +10,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        forest: {
-          DEFAULT: '#004D2C',
-          dark: '#00381F',
-          deep: '#064E3B',
-          light: '#006341',
-        },
-        emerald: {
-          DEFAULT: '#00A86B',
-          glow: '#10B981',
-          light: '#34D399',
-        },
-        mint: {
-          DEFAULT: '#E8F5E9',
-          border: '#C8E6C9',
-          dark: '#A5D6A7',
-        },
         bond: {
-          forest: '#004D2C',
-          emerald: '#00A86B',
-          mint: '#E8F5E9',
-          canvas: '#F4F7F5',
-          darkPill: '#141D17',
-          black: '#0D1117',
+          bg: '#0a0f0d',
+          card: '#111916',
+          border: '#1B3B2B',
+          hover: '#162920',
+          green: '#006341',
+          'green-light': '#00A86B',
+          'green-glow': '#10B981',
+          black: '#000000',
+          white: '#FFFFFF',
+          'text-muted': '#9CA3AF',
+          'text-dim': '#6B7280',
         },
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+        mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'monospace'],
       },
       animation: {
         'fade-in': 'fadeIn 0.2s ease-out',
